@@ -2,13 +2,13 @@
 
 All data processing and model training was done in jupyter notebook using python. Datasets are stored in the form of .csv files
 
-#Models
+# Models
 
 The models were trained in "BinaryFullyTrained.ipynb" using pytorch and huggingface's transformer library. 
 The "BinaryFewShot.ipynb" and "MutliClassification.ipynb" notebooks were used to train other versions of the model which were utlimately not used or discussed in the final paper. 
 "GPT.ipynb" was used for comparison with GPT-3.5 using zero-shot and few-shot learning. 
 
-#Datasets
+# Datasets
 
 "bragging_data.csv" contains the original bragging data used for initial training, this model was originally made by Jin et al. (https://aclanthology.org/2022.acl-long.273.pdf)
 
@@ -20,7 +20,7 @@ Subsequently, "transcript_combined2.csv" removes all words from "Operator"
 
 Finally, "transcript_final.csv" filters for only text from the company spokesperson. 
 
-#Results
+# Results
 
 Responses from GPT - 3.5 (zero shot) are stored in "GPT3zeroshotGuess.csv" 
 
