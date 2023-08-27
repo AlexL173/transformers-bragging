@@ -1,0 +1,4 @@
+.env
+binary-few-shot/
+binary-fully-trained/
+/transcript_2022.csv
